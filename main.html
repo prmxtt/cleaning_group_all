@@ -1,0 +1,488 @@
+<!DOCTYPE html> 
+<html lang="ru">
+
+<head>
+<meta charset="utf-8">
+<title>Cleaning group</title>
+<link rel="stylesheet" type="text/css" href="css/style_main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+  <header>
+      <div class="head">
+          <div class="box-1">
+              <a href="main.html"><img class="imglogo" src="img/logoo.png" alt=""></a>
+              <div class="logo">CLEANING GROUP</div>
+          </div>
+
+          <div class="box-3">
+              <div class="icPhone">
+              <img class="icon-phone" src="img/phone.png" alt="">
+              <div class="textIcPhone">8-902-515-22-23</div>
+              </div>
+              <div class="icTime"> 
+                <img class="icon-time" src="img/time.png" alt="">
+                <div class="textIcTime">ПН-ВС: 8:00-22:00</div>
+            </div>
+          </div>
+          <div class="box-4">
+              <div class="icVK">
+                  <a href="#"><img class="icon-vk" src="img/vk.png" alt=""></a>
+                  <div class="textIcVk"><a href="#">https://vk.com/IrkClean38</a></div>
+              </div>
+              <div class="icInst">
+                  <a href="#"><img class="icon-inst" src="img/inst.png"></a>
+                  <div class="textIcInst"><a href="#">IrkClean38</a></div>
+              </div>                
+          </div>
+          <div class="box-5">
+              <div class="icFb">
+                  <a href="#"><img class="icon-fb" src="img/fb.png" alt=""></a>
+                  <div class="textFb"><a href="#">https://facebook.com/ICl</a></div>
+              </div>
+              <div class="icTg">
+                  <a href="#"><img class="icon-tg" src="img/tg.png"></a>
+                  <div class="textIcTg"><a href="#">https://t.me//IrkClean38</a></div>
+              </div>                
+          </div>
+      </div>
+  </header>
+
+  <div class="mainpic">
+      <img src="img/mainpic.jpg" alt="" width="100%">
+      <div class="container_menu_main">
+          <div class="cm1 ye"><a href="#compAbout">О компании</a></div>
+          <div class="cm2 ye"><a href="services.html">Услуги</a></div>
+          <div class="cm3 ye"><a href="feedback.html">Отзывы</a></div>
+          <div class="cm4 ye"><a href="contacts.html">Контакты</a></div>
+          <div class="cm5 ye"><a href="stock.html">Акции</a></div>
+          <div class="cm6"></div>
+          <div class="cm7 ye"><a href="login.html">Войти</a></div>
+          <div id="call" class="cm8 ye"><a href="makeOrder.html">Заказать услугу</a></div>
+      </div>
+
+      <div class="container">
+          <!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+          <input id="toggle" type="checkbox">
+          
+          <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+          
+          <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+          <label class="toggle-container" for="toggle">
+          <!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+          <span class="button button-toggle"></span>
+          </label>
+          
+          <!-- Навигация -->
+          <nav class="nav">
+          <a rel="nofollow" rel="noreferrer" class="nav-item" href="#compAbout">О компании</a>
+          <a rel="nofollow" rel="noreferrer" class="nav-item" href="services.html">Услуги</a>
+          <a rel="nofollow" rel="noreferrer" class="nav-item" href="feedback.html">Отзывы</a>
+          <a rel="nofollow" rel="noreferrer" class="nav-item" href="contacts.html">Контакты</a>
+          <a rel="nofollow" rel="noreferrer" class="nav-item" href="stock.html">Акции</a>
+          <a rel="nofollow" rel="noreferrer" class="nav-item" href="login.html">Войти</a>
+          <a rel="nofollow" rel="noreferrer" class="nav-item" href="personalCurrentOrders.html">Заказать услугу</a>
+          </nav>
+          
+          <!-- Просто фиктивное содержимое, как в анимированном gif -->
+      </div>
+
+      <div class="textOverbtnCall">
+          <div class="TOBC">
+          Закажите звонок <br>
+          и мы возьмем все хлопоты на себя!
+          </div>
+          <div class="TOBCbtn">
+              <a href="#openModal" class="Modal">
+                <p class="allButton">
+                  ЗАКАЗАТЬ ЗВОНОК
+                </p>
+              </a>
+          </div>
+      </div>
+  </div>
+
+
+  <wbr>
+
+  <section id="selCont">
+      <h2>
+          <div>УСЛУГИ</div>
+      </h2>
+  
+      <div class="selCont">
+          <div class="bx">
+              УБОРКА<br>
+              <a><img src="img/clean.png" alt=""></a><br>
+              Используем только<br>
+              профессиональное оборудование!<br>
+              <br>
+                <select class="selContainer selMain">
+                  <option>УБОРКА</option>
+                  <option>Дезинфекция</option>
+                  <option>Полирорвка полов</option>
+                  <option>Уборка подъездов</option>
+                  <option>Чистка крыш</option>
+                  <option>Уборка снега</option>
+                  <option>Уборка территории</option>
+                  <option>Уборка яхт</option>
+                  <option>Уборка после ремонта</option>
+                  <option>Уборка коттеджей</option>
+                  <option>Уборка домов</option>
+                  <option>Уборка офисов</option>
+                  <option>Уборка квартир</option>
+                </select>
+          </div>
+          <div class="bx">
+              МЫТЬЕ<br>
+              <a><img src="img/wash.png" alt=""></a><br>
+              Моем качественными,<br>
+              гипоаллергенными биосредствами! <br>
+              <br>
+              <select class="selContainer selMain">
+                  <option>МЫТЬЕ</option>
+                  <option>Мытье стен</option>
+                  <option>Мытье вывесок</option>
+                  <option>Мытье посуды</option>
+                  <option>Мытье люстр</option>
+                  <option>Мытье фасадов</option>
+                  <option>Мытье полов</option>
+                  <option>Мытье окон, витрин</option>
+                  </select>
+          </div>
+          <div class="bx">
+              ХИМЧИСТКА<br>
+              <a><img src="img/dryClean.png" alt=""></a><br>
+              Отличная возможность сэкономить <br>
+              свои силы и время! <br>
+              <br>
+              <select class="selContainer selMain">
+                <option>ХИМЧИСТКА</option>
+                <option>Химчистка чехлов</option>
+                <option>Химчистка подушек</option>
+                <option>Химчистка диванов</option>
+                <option>Химчистка салонов авто</option>
+                <option>Химчистка колясок</option>
+                <option>Химчистка одеял, пледов</option>
+                <option>Химчистка игрушек</option>
+                <option>Химчистка ковролина, ковров</option>
+                <option>Химчистка матрасов</option>
+                <option>Химчистка мягкой мебели</option>
+                <option>Химчистка жалюзи</option>
+                <option>Химчистка штор и балдахинов</option>
+              </select>
+          </div>
+      </div>
+  </section>
+
+  <wbr>
+ 
+  <section id="slider">
+      <h2>
+          <div>ОТЗЫВЫ</div>
+      </h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper_slide1">
+            <div class="swSl">
+              <img class="swSlPic" src="img/feedback11.jpg" alt="somePic">
+            </div>
+          </div>
+          <div class="swiper_slide2">
+            <div class="swiper_slide2_nameDate">
+              <div class="swiper_slide2_name">
+                Иванова Мария
+              </div>
+              <div class="swiper_slide2_date">
+                06 / 11 / 2019
+              </div>
+            </div>
+            <div class="swiper_slide2_text">
+              <p>
+                Хочу сказать спасибо. Уборка выполнена качественно
+                и быстро. Очень приятные и добросовестные работницы
+                Наталья и Алена. Работали слаженно и дружно.
+                Огромное им спасибо за помощь.
+              </p>
+            </div>
+            <div class="swiper_slide2_comment1">
+              <div class="swiper_slide2_comment1_pic">
+                <img src="img/comment1.png">
+              </div>
+              <div class="swiper_slide2_comment1_text">
+                Комментарий:
+              </div>
+            </div>
+            <div class="swiper_slide2_comment2">
+              <p>
+                Спасибо, что доверяете именно нам!<br>
+                Стараемся быть лучше для наших клиентов!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="swiper_slide1">
+              <div class="swSl">
+                <img class="swSlPic" src="img/feedback33.png" alt="somePic">
+              </div>
+          </div>
+
+          <div class="swiper_slide2">
+            <div class="swiper_slide2_nameDate">
+              <div class="swiper_slide2_name">
+                Попова Александра
+              </div>
+              <div class="swiper_slide2_date">
+                11 / 06 / 2019
+              </div>
+            </div>
+            <div class="swiper_slide2_text">
+              <p>
+                  Заказывала уборку квартиры после ремонта. Осталась очень
+                  довольна. Качество уборки – отличное, цены – абсолютно
+                  адекватные. Когда раньше заказывала поддерживающую
+                  уборку в других компаниях, всегда была разочарована:
+                  так как никто никогда не мог убраться так, как это
+                  сделала бы сама. В данном же случае придраться не к чему.
+                  Спасибо огромное команде!
+              </p>
+            </div>
+            <div class="swiper_slide2_comment1">
+              <div class="swiper_slide2_comment1_pic">
+                <img src="img/comment1.png">
+              </div>
+              <div class="swiper_slide2_comment1_text">
+                Комментарий:
+              </div>
+            </div>
+            <div class="swiper_slide2_comment2">
+              <p>
+                Стараемся быть лучше для наших клиентов!
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="swiper_slide1">
+            <div class="swSl">
+              <img class="swSlPic" src="img/feedback22.png" alt="somePic">
+            </div>
+          </div>
+          <div class="swiper_slide2">
+            <div class="swiper_slide2_nameDate">
+              <div class="swiper_slide2_name">
+                  Петрова Галина
+              </div>
+              <div class="swiper_slide2_date">
+                20 / 03 / 2019
+              </div>
+            </div>
+            <div class="swiper_slide2_text">
+              <p>
+                Выражаю благодарность Алексею Бондареву за качественную химчистку
+                мягкой мебели и за вежливое, доброжелательное общение.
+                Именно таким и должен быть персонал!
+              </p>
+            </div>
+            <div class="swiper_slide2_comment1">
+              <div class="swiper_slide2_comment1_pic">
+                <img src="img/comment1.png">
+              </div>
+              <div class="swiper_slide2_comment1_text">
+                Комментарий:
+              </div>
+            </div>
+            <div class="swiper_slide2_comment2">
+              <p>
+                  Спасибо за отзыв, Галина!<br>
+                  Всегда рады помочь!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <!-- <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">Slide 10</div> -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+    <wbr>
+      <div class="dAllBtn">
+        <a href="feedback.html">
+          <p class="allButton">
+              ПОСМОТРЕТЬ ВСЕ
+          </p>
+        </a>
+      </div>
+  </section>
+
+  <wbr>
+
+  <section id="compAbout">
+    <h2>
+        <div>О КОМПАНИИ</div>
+    </h2>
+    
+    <div class="aboutCompany">
+        <div class="cont5_1">
+            <img class="aboutCompanyPic" src="img/aboutCompany.jpg">
+        </div>
+        <div class="cont5_2">
+            <p>
+                    Наша компания работает как с физическими, так и с юридическими лицами.  
+                    Заключаем Договоры с предприятиями на обслуживание, работаем по безналичному расчёту.<br>
+            </p>
+            <p>
+                    Компания Cleaning group занимается профессиональной уборкой жилых и офисных помещенийв Иркутске.
+                    При чистке и уборке используются самые современные средства,имеющие все сертификаты
+                    и необходимую документацию, полностью отвечающие требованиям безопасности.
+                    Наши сотрудники всегда приветливы, аккуратны, обходительны, а главное, профессиональны.
+            </p>
+        </div>
+    </div>
+  </section>
+  
+  <div id="openModal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">ЗАКАЗАТЬ ЗВОНОК</h3>
+                <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">
+
+            <div class="formMain">
+                <input class="formInp formInpM" placeholder="Ваше имя">
+    
+                <br>
+                <input class="formInp formInpM" placeholder="Номер телефона">
+    
+                <br>
+                <input class="formInp formInpM" placeholder="Комментарий">
+      
+            </div>
+            <div class="formBtnModal">
+                <a href="main.html">
+                    <p class="allButton modalBtnSize">
+                        ГОТОВО
+                    </p>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
+        console.log(scrollbar);
+        document.querySelector('[href="#openModal"]').addEventListener('click', function () {
+            document.body.style.overflow = 'hidden';
+            document.querySelector('#openModal').style.marginLeft = scrollbar;
+        });
+        document.querySelector('[href="#close"]').addEventListener('click', function () {
+            document.body.style.overflow = 'visible';
+            document.querySelector('#openModal').style.marginLeft = '0px';
+        });
+    });
+  </script>
+
+  
+  <footer>
+      <div class="foot">
+          <div class="contf1">
+              <div class="cf1_1"><a href="#call">ЗАКАЗАТЬ УСЛУГУ</a></div>
+              <div class="cf1_2"><a href="#selCont">УСЛУГИ</a></div>
+              <div class="cf1_3"><a href="#slider">ОТЗЫВЫ</a></div>
+              <div class="cf1_4"><a href="#compAbout">О КОМПАНИИ</a></div>
+          </div>
+          <div class="contf2">
+              <div class="cf2_1">
+                  <a href="#"><img class="iccf2_1" src="img/vk.png" alt=""></a>
+                  <div class="texticcf2_1"><a href="#">https://vk.com/IrkClean38</a></div>
+              </div>
+              <br>
+              <div class="cf2_2">
+                  <a href="#"><img class="iccf2_2" src="img/inst.png"></a>
+                  <div class="texticcf2_2"><a href="#">IrkClean38</a></div>
+              </div>
+              <br>
+              <div class="cf2_3">
+                  <a href="#"><img class="iccf2_3" src="img/tg.png"></a>
+                  <div class="texticcf2_3"><a href="#">https://t.me//IrkClean38</a></div>
+              </div>
+              <br>
+          </div>
+          <div class="contf3">
+              <div class="cf3_1">
+                  <a href="#"><img class="iccf3_1" src="img/fb.png" alt=""></a>
+                  <div class="texticcf3_1"><a href="#">https://facebook.com/ICl</a></div>
+              </div>
+
+              <br>
+              <div class="cf3_3">
+                  <img class="iccf3_3" src="img/mail.png">
+                  <div class="texticcf3_3">IrkClean38@gmail.com</div>
+              </div>
+              <br>
+              <div class="cf3_2">
+                  <a href="#"><img class="iccf3_2" src="img/locator.png" alt=""></a> 
+                  <div class="texticcf3_2">г. Иркутск, ул.Гоголя, д. 30</div> 
+              </div>
+
+              <br>
+          </div>
+          <div class="contf4">
+              <div class="cf4_1">
+                  <img class="iccf4_1" src="img/phone.png" >
+                  <div class="texticcf4_1">8-902-515-22-23</div>
+              </div>
+              <br>
+              <div class="cf4_2">
+                  <img class="iccf4_2" src="img/time.png" alt="">
+                  <div class="texticcf4_2">Часы работы:<br>ПН-ВС: 8:00-22:00</div>
+              </div>
+              <br>
+          </div>
+      </div>
+  </footer>
+
+</body>
+</html>
